@@ -1,45 +1,32 @@
-# Setup on your Windows path
+# Windows setup
 
-Use this location:
+## 1. Put the repo somewhere easy
+
+Example:
 
 ```powershell
-C:\Users\lukec\Documents\GitHubLocal\amity-outdoor-fitness-grant
+mkdir "$env:USERPROFILE\Documents\GitHubLocal" -ErrorAction SilentlyContinue
 ```
 
-## Option 1 — unzip by PowerShell
+Unzip or clone this repo inside that folder.
 
-Assuming the zip is in Downloads:
+## 2. Open the site
+
+From the repo folder:
 
 ```powershell
-mkdir "C:\Users\lukec\Documents\GitHubLocal" -ErrorAction SilentlyContinue
-Expand-Archive -Path "$env:USERPROFILE\Downloads\amity-outdoor-fitness-grant.zip" -DestinationPath "C:\Users\lukec\Documents\GitHubLocal" -Force
-cd "C:\Users\lukec\Documents\GitHubLocal\amity-outdoor-fitness-grant"
 python -m http.server 8080
 ```
 
-Open:
+Then open:
 
 ```text
 http://localhost:8080
 ```
 
-## Option 2 — direct file open
+## 3. Publish later
 
-Double-click:
+Push the repo to GitHub and enable GitHub Pages from the `main` branch and `/root`.
 
-```text
-C:\Users\lukec\Documents\GitHubLocal\amity-outdoor-fitness-grant\index.html
-```
+No install, build or package step is required.
 
-The interactive site should still run because the data is embedded in `assets/app.js`.
-
-## GitHub Pages
-
-```powershell
-cd "C:\Users\lukec\Documents\GitHubLocal\amity-outdoor-fitness-grant"
-git init
-git add .
-git commit -m "Initial Amity outdoor fitness grant website"
-```
-
-Then create a GitHub repo and push it. In GitHub Pages settings, publish from `main` branch and `/root`.

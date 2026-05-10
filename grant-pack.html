@@ -1,0 +1,107 @@
+﻿<!doctype html>
+<html lang="en-AU">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Grant Pack - Amity Outdoor Fitness</title>
+  <link rel="stylesheet" href="assets/site.css?v=20260510-1552">
+</head>
+<body>
+  <header class="site-header">
+    <a class="brand" href="index.html"><span>A</span><strong>Amity Outdoor Fitness</strong></a>
+    <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="site-nav">Menu</button>
+    <nav id="site-nav" class="site-nav" aria-label="Main navigation"><a href="index.html">Vision</a><a href="site-access.html">Site</a><a href="equipment.html">Gear</a><a href="activity-plans.html">Activities</a><a href="budget-funding.html">Budget</a><a href="delivery-models.html">Delivery</a><a href="evidence.html">Evidence</a><a href="honour-board.html">Honour</a><a class="active" href="grant-pack.html">Pack</a></nav>
+  </header>
+
+  <main class="pack-main">
+    <section class="section">
+      <div class="section-heading">
+        <p class="kicker">Grant pack</p>
+        <h1>Check the pack, then send one clear response.</h1>
+        <p>This final page holds the working files and local repo links. At the end, one simple form gathers the notes saved from the journey and downloads a support-letter starter.</p>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="section-heading">
+        <p class="kicker">Grant pack pages</p>
+        <h2>Readable documents with Markdown downloads.</h2>
+      </div>
+      <div class="link-grid">
+        <a href="grant-docs/grant-brief.html"><strong>Grant brief</strong><span>Main plain-English project brief.</span></a>
+        <a href="grant-docs/plain-english-one-pager.html"><strong>One-pager</strong><span>Short version for supporters and councillors.</span></a>
+        <a href="grant-docs/site-and-traffic-note.html"><strong>Site and traffic note</strong><span>Crossing, speed calming, 40 km/h extension and road-edge logic.</span></a>
+        <a href="grant-docs/potable-water-note.html"><strong>Potable water note</strong><span>Drinking fountain and service-route checks.</span></a>
+        <a href="grant-docs/qr-activity-programmes.html"><strong>QR activity programmes</strong><span>All-ages routine library that informs equipment choices.</span></a>
+        <a href="grant-docs/site-checklist.html"><strong>Site checklist</strong><span>Approvals, services, access, standards and quote checklist.</span></a>
+        <a href="grant-docs/equipment-research.html"><strong>Equipment research</strong><span>Outdoor fitness equipment options and coastal specification.</span></a>
+        <a href="grant-docs/equipment-price-comparison.html"><strong>Equipment price comparison</strong><span>Public price anchors and Australian quote lane.</span></a>
+        <a href="grant-docs/grant-options.html"><strong>Grant options</strong><span>Funding pathways and priority logic.</span></a>
+        <a href="grant-docs/consultation-plan.html"><strong>Consultation plan</strong><span>Questions for residents, campers, older users and Council.</span></a>
+        <a href="grant-docs/comparable-projects.html"><strong>Comparable projects</strong><span>Useful public examples and scale checks.</span></a>
+        <a href="grant-docs/source-notes.html"><strong>Source notes</strong><span>Evidence links and verification sources.</span></a>
+      </div>
+    </section>
+
+    <section class="section band">
+      <div class="section-heading">
+        <p class="kicker">Final response</p>
+        <h2>Support it, challenge it, or say what must change.</h2>
+      </div>
+      <div class="survey-card response-builder">
+        <form class="survey-grid">
+          <label>Support position
+            <select id="supportLevel">
+              <option>I broadly support the proposal</option>
+              <option>I support it if the access and traffic parts are handled properly</option>
+              <option>I like the idea but need more information</option>
+              <option>The proposal needs changes before I support it</option>
+              <option>I do not support it at this stage</option>
+            </select>
+          </label>
+          <label>Before it gets my full support
+            <textarea id="supportCondition" rows="4" placeholder="Example: I want Council to confirm the crossing, parking edge and water route before equipment is finalised."></textarea>
+          </label>
+          <label>The proposal needs more of
+            <textarea id="moreOf" rows="4" placeholder="Example: motion equipment, shade, seating, koala-tour warning signs, clear parking path..."></textarea>
+          </label>
+          <label>The proposal needs less of
+            <textarea id="lessOf" rows="4" placeholder="Example: less cramped equipment, fewer uncosted assumptions, less roadside parking chaos..."></textarea>
+          </label>
+          <div class="survey-actions">
+            <button class="button primary" id="downloadResponse" type="button">Download one support note</button>
+            <small>Uses notes saved in this browser as you move through the pages.</small>
+          </div>
+        </form>
+        <pre id="assembledResponse" class="survey-preview" aria-live="polite"></pre>
+      </div>
+    </section>
+
+    <section class="section linked-next-doors">
+      <div class="section-heading">
+        <p class="kicker">Connected local tools</p>
+        <h2>Four useful next doors.</h2>
+        <p>Open these when the proposal needs public updates, a local media story, grant profile material or a simple supporter profile.</p>
+      </div>
+      <div class="link-grid">
+        <a href="../straddie-noticeboard-network/index.html" target="_blank" rel="noopener noreferrer"><strong>Straddie Noticeboard Network</strong><span>Public updates and community notice flow.</span></a>
+        <a href="https://auraofintelligence.github.io/Archipelago/" target="_blank" rel="noopener noreferrer"><strong>Archipelago</strong><span>Wider island-network context for public tools and shared infrastructure ideas.</span></a>
+        <a href="../stradbroke-grants-lab/profile-kit.html" target="_blank" rel="noopener noreferrer"><strong>Grant Profile Kit</strong><span>Profile material for applicants, partners and supporters.</span></a>
+        <a href="../sbt_profile_starter/step1.html" target="_blank" rel="noopener noreferrer"><strong>Profile Builder</strong><span>Step-by-step profile.md builder for people and groups.</span></a>
+      </div>
+    </section>
+</main>
+  <nav class="page-flow" aria-label="Page flow">
+    <a class="flow-link prev" href="honour-board.html"><span>Previous</span>Honour board</a>
+  </nav>
+
+
+  <footer class="site-footer"><p>Before submission: verify every grant round, quote, Council permission, image permission and traffic/service assumption.</p></footer>
+  <script src="assets/site.js?v=20260510-1552"></script>
+</body>
+</html>
+
+
+
+
+

@@ -2,31 +2,31 @@
   {
     "id": "pilot",
     "name": "Pilot / grant starter",
-    "cost": "$12k–$25k",
-    "plain_use": "Prove support, complete site checks, prepare quotes, run launch activities."
+    "cost": "$12k-$25k",
+    "plain_use": "Prove support, complete site checks, prepare quotes, run launch activities and document the pedestrian movement issue."
   },
   {
     "id": "starter",
     "name": "Starter build",
-    "cost": "$45k–$75k",
-    "plain_use": "Small calisthenics cluster with surfacing, signage and shade basics."
+    "cost": "$45k-$75k",
+    "plain_use": "Small calisthenics cluster with surfacing, signage and shade basics. Traffic calming would likely remain separate or staged."
   },
   {
     "id": "medium",
     "name": "Happy medium",
-    "cost": "$120k–$180k",
-    "plain_use": "8–12 station inclusive fitness and wellbeing circuit with access, shade, seating and launch programme."
+    "cost": "$120k-$180k",
+    "plain_use": "8-12 station inclusive fitness and wellbeing circuit with access, shade, seating, launch programme, pedestrian-access design allowance, slight 40 km/h zone extension request and potable-water service check."
   },
   {
     "id": "stretch",
     "name": "Stretch build",
-    "cost": "$250k–$450k",
-    "plain_use": "Two connected zones with youth challenge, mobility, mind-body space, landscaping and stronger amenities."
+    "cost": "$250k-$450k",
+    "plain_use": "Two connected zones with youth challenge, mobility, mind-body space, landscaping, road edge access, traffic-calming investigation and drinking fountain allowance if potable water service can be confirmed."
   },
   {
     "id": "precinct",
     "name": "Big dream precinct",
-    "cost": "$700k–$1.2m+",
-    "plain_use": "Whole active recreation precinct; needs detailed design, approvals and major co-contribution."
+    "cost": "$700k-$1.2m+",
+    "plain_use": "Whole active recreation precinct; needs detailed design, approvals, traffic treatment confirmation, services confirmation and major co-contribution."
   }
 ]

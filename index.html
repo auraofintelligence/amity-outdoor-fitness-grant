@@ -1,168 +1,110 @@
-<!doctype html>
+﻿<!doctype html>
 <html lang="en-AU">
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Amity Point Outdoor Fitness & Wellbeing Circuit</title>
-  <meta name="description" content="Grant-ready outdoor fitness and wellbeing circuit concept for Amity Point Recreation Reserve, Minjerribah / North Stradbroke Island.">
-  <link rel="stylesheet" href="assets/styles.css">
+  <title>Amity Point Outdoor Fitness and Safer Access Proposal</title>
+  <meta name="description" content="A local story for outdoor fitness, wellbeing, safer crossing, traffic calming and drinking water at Amity Point.">
+  <link rel="stylesheet" href="assets/site.css?v=20260510-1552">
 </head>
 <body>
-  <header class="hero" id="top">
-    <nav class="nav" aria-label="Main navigation">
-      <a class="brand" href="#top" aria-label="Amity Outdoor Fitness home">
-        <span class="brand-mark">A</span>
-        <span>Amity Outdoor Fitness</span>
-      </a>
-      <button class="menu-button" aria-expanded="false" aria-controls="nav-links">Menu</button>
-      <div class="nav-links" id="nav-links">
-        <a href="#why">Why</a>
-        <a href="#budget">Budget</a>
-        <a href="#equipment">Equipment</a>
-        <a href="#grants">Grants</a>
-        <a href="#plan">Plan</a>
-      </div>
-    </nav>
-
-    <section class="hero-grid wrap">
-      <div class="hero-copy">
-        <p class="eyebrow">Plain grant concept · Amity Point Recreation Reserve · Minjerribah</p>
-        <h1>Salt-ready outdoor fitness, stretching and mind-body space for Amity.</h1>
-        <p class="lead">A practical, free-to-use coastal exercise circuit with bodyweight stations, mobility equipment, shade, seating, simple signage, QR routines and a calm place to stretch, breathe and connect.</p>
-        <div class="hero-actions">
-          <a class="button primary" href="#budget">Explore budget tiers</a>
-          <a class="button secondary" href="docs/grant-brief.md">Open grant brief</a>
-        </div>
-        <ul class="hero-points" aria-label="Project principles">
-          <li>Coastal-grade and low maintenance</li>
-          <li>Beginner to advanced options</li>
-          <li>Accessible paths, shade and seating</li>
-          <li>Plain-English grant language</li>
-        </ul>
-      </div>
-      <div class="site-card" aria-label="Stylised site concept">
-        <div class="map-frame">
-          <svg viewBox="0 0 560 420" role="img" aria-label="Stylised Amity Point site map concept">
-            <defs>
-              <linearGradient id="water" x1="0" x2="1" y1="0" y2="1"><stop offset="0" stop-color="#7ae4df"/><stop offset="1" stop-color="#166a9d"/></linearGradient>
-              <linearGradient id="land" x1="0" x2="1" y1="0" y2="1"><stop offset="0" stop-color="#d8f0c0"/><stop offset="1" stop-color="#477c4a"/></linearGradient>
-            </defs>
-            <rect width="560" height="420" fill="url(#water)"/>
-            <path d="M0 264 C104 209 132 149 218 128 C342 97 416 151 560 88 L560 420 L0 420 Z" fill="url(#land)"/>
-            <path class="road" d="M24 162 C122 136 170 134 252 150 C340 168 392 168 538 138"/>
-            <path class="reserve" d="M246 171 C295 146 334 151 361 187 C392 226 405 289 368 321 C320 361 230 344 204 294 C174 237 197 195 246 171 Z"/>
-            <path class="trail" d="M232 234 C259 199 301 192 330 219 C362 248 356 305 312 317 C258 331 212 288 232 234 Z"/>
-            <g class="stations">
-              <circle cx="250" cy="223" r="10"/><circle cx="291" cy="205" r="10"/><circle cx="330" cy="236" r="10"/><circle cx="336" cy="283" r="10"/><circle cx="289" cy="307" r="10"/><circle cx="242" cy="282" r="10"/>
-            </g>
-            <text x="30" y="152" class="map-label">Claytons Road</text>
-            <text x="215" y="366" class="map-label">Fitness + wellbeing circuit</text>
-            <text x="398" y="58" class="map-label light">Coastal salt air</text>
-          </svg>
-        </div>
-        <div class="site-note">
-          <strong>Site note:</strong> exact boundaries, services, tree protection, tenure, cultural heritage and Council permissions must be confirmed before applying.
-        </div>
-      </div>
-    </section>
+  <header class="site-header">
+    <a class="brand" href="index.html">
+      <span>A</span>
+      <strong>Amity Outdoor Fitness</strong>
+    </a>
+    <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="site-nav">Menu</button>
+    <nav id="site-nav" class="site-nav" aria-label="Main navigation"><a class="active" href="index.html">Vision</a><a href="site-access.html">Site</a><a href="equipment.html">Gear</a><a href="activity-plans.html">Activities</a><a href="budget-funding.html">Budget</a><a href="delivery-models.html">Delivery</a><a href="evidence.html">Evidence</a><a href="honour-board.html">Honour</a><a href="grant-pack.html">Pack</a></nav>
   </header>
 
   <main>
-    <section class="section wrap" id="why">
-      <div class="section-heading">
-        <p class="eyebrow">Evidence dashboard</p>
-        <h2>Why this project is grant-relevant</h2>
-        <p>Outdoor fitness is not just equipment. It is low-cost health infrastructure, social infrastructure and a visible invitation to move.</p>
-      </div>
-      <div class="stat-grid" id="stat-grid"></div>
-      <div class="chart-card">
-        <div>
-          <h3>Simple evidence view</h3>
-          <p>These figures help explain the need for free, convenient strength, mobility and wellbeing options.</p>
-        </div>
-        <div id="evidence-chart" class="bar-chart" aria-label="Evidence bar chart"></div>
-      </div>
-    </section>
-
-    <section class="section contrast" id="budget">
-      <div class="wrap">
-        <div class="section-heading">
-          <p class="eyebrow">Stretch goal simulator</p>
-          <h2>Pick a build level and see what changes</h2>
-          <p>The happy medium is designed to be big enough to matter, but plain enough for a grant assessor to understand quickly.</p>
-        </div>
-        <div class="budget-layout">
-          <div class="tier-list" id="tier-list"></div>
-          <div class="tier-detail" id="tier-detail" aria-live="polite"></div>
+    <section class="hero narrative-hero story-hero">
+      <div class="hero-copy">
+        <p class="kicker">Amity Point Recreation Reserve - Claytons Road - Minjerribah</p>
+        <h1>A small outdoor fitness park can unlock a bigger local fix.</h1>
+        <p class="lead">The activity park would draw more people across Claytons Road. That makes the crossing, speed calming, pothole repair, water check and safer visitor movement part of the same story instead of five separate little arguments.</p>
+        <div class="button-row">
+          <a class="button primary" href="site-access.html">Add a site note</a>
+          <a class="button ghost" href="equipment.html">See the equipment options</a>
         </div>
       </div>
+      <figure class="hero-photo evidence-photo">
+        <img src="assets/images/reference/amity-park-parking-zebra-crossing.webp" alt="Annotated aerial reference showing the proposed exercise area, parking and crossing point.">
+        <figcaption>Marked-up reference: the activity strip sits south of Claytons Road and west of the proposed crossing. The road-base, unsealed parking and bus-turn area sits north of Claytons Road and east of the proposed crossing.</figcaption>
+      </figure>
     </section>
 
-    <section class="section wrap" id="impact">
+    <section class="section story-strip">
       <div class="section-heading">
-        <p class="eyebrow">Interactive impact estimate</p>
-        <h2>Turn weekly visits into grant outcomes</h2>
-        <p>This is a simple assumption tool for grant writing, not a promise. It helps show what the space could enable after launch.</p>
+        <p class="kicker">Why combine it?</p>
+        <h2>Each part is stronger when the others are visible.</h2>
       </div>
-      <div class="impact-card">
-        <label for="visits">Estimated visits per week: <strong id="visit-count">180</strong></label>
-        <input id="visits" type="range" min="40" max="700" value="180" step="10">
-        <div class="impact-grid" id="impact-grid"></div>
-      </div>
-    </section>
-
-    <section class="section wrap" id="equipment">
-      <div class="section-heading">
-        <p class="eyebrow">Equipment research</p>
-        <h2>Bodyweight, mobility and mind-body options</h2>
-        <p>Prioritise static, simple, certified and corrosion-resistant gear. Add moving machines only where maintenance capacity is clear.</p>
-      </div>
-      <div class="filter-row" id="equipment-filters" aria-label="Equipment category filters"></div>
-      <div class="card-grid" id="equipment-grid"></div>
-    </section>
-
-    <section class="section contrast" id="grants">
-      <div class="wrap">
-        <div class="section-heading">
-          <p class="eyebrow">Grant pathway</p>
-          <h2>Plain and simple funding stack</h2>
-          <p>Use small grants for consultation and launch, medium grants for the core build, and larger grants only when designs, permissions and co-contributions are ready.</p>
-        </div>
-        <div class="grant-grid" id="grant-grid"></div>
-      </div>
-    </section>
-
-    <section class="section wrap" id="plan">
-      <div class="section-heading">
-        <p class="eyebrow">Delivery plan</p>
-        <h2>A sensible path from idea to installation</h2>
-      </div>
-      <div class="timeline">
-        <article><span>1</span><h3>Check the site</h3><p>Confirm land tenure, tree roots, underground services, access, drainage, shade, visual safety and any Council or cultural heritage requirements.</p></article>
-        <article><span>2</span><h3>Talk early</h3><p>Speak with Council, local residents, island groups, youth, elders, mobility users, skaters, the community club and Quandamooka representatives.</p></article>
-        <article><span>3</span><h3>Design simply</h3><p>Prepare a one-page concept, a rough layout, equipment list, maintenance plan, quotes and a plain-English case for free public health infrastructure.</p></article>
-        <article><span>4</span><h3>Fund in stages</h3><p>Use small grants for design and activation, then larger grants for equipment, surfacing, shade, seating, signage and installation.</p></article>
-        <article><span>5</span><h3>Measure outcomes</h3><p>Track usage counts, QR scans, launch sessions, surveys, community feedback, maintenance checks and stories from local users.</p></article>
+      <div class="story-panels">
+        <article>
+          <span>1</span>
+          <h3>Activity brings people</h3>
+          <p>Older locals, families, teens, campers, walkers and visitors get a free, visible place to move.</p>
+        </article>
+        <article>
+          <span>2</span>
+          <h3>People create crossing demand</h3>
+          <p>More movement across Claytons Road makes a zebra crossing and calmer traffic easier to justify.</p>
+        </article>
+        <article>
+          <span>3</span>
+          <h3>Road works fix the rough edge</h3>
+          <p>The potholes, unsealed parking edge and bus turnaround can be treated as part of access, not an afterthought.</p>
+        </article>
+        <article>
+          <span>4</span>
+          <h3>Water makes it usable</h3>
+          <p>A drinking fountain only makes sense if the pipe route, backflow, drainage and maintenance stack up.</p>
+        </article>
+        <article>
+          <span>5</span>
+          <h3>Wildlife watchers need warning</h3>
+          <p>Koala tours and visitors often look up into trees, stop for photos and drift close to the road without watching traffic.</p>
+        </article>
+        <article>
+          <span>6</span>
+          <h3>Parking can guide behaviour</h3>
+          <p>A clearer parking zone, crossing and park path could shift families away from ad hoc roadside stops and 4WD shortcuts.</p>
+        </article>
       </div>
     </section>
 
-    <section class="section wrap final-cta">
+    <section class="section visual-story">
+      <figure>
+        <img src="assets/images/reference/reserve-sparse-trees-open-view.webp" alt="Open sparse-tree reserve edge near the proposed activity area.">
+      </figure>
       <div>
-        <p class="eyebrow">Grant-ready wording</p>
-        <h2>One-line pitch</h2>
-        <p class="quote">This project will create a free, salt-resistant outdoor fitness and wellbeing circuit at Amity Point so residents and visitors can strengthen, stretch, move safely, meet others and enjoy healthy activity close to home.</p>
+        <p class="kicker">The place</p>
+        <h2>More than 100 metres long, roughly 15-20 metres deep, and open enough to design properly.</h2>
+        <p>The site does not need a cramped cluster of basic bars. It can balance space, shade, movement, rest, access and wildlife-aware traffic calming. The first job is to gather local observations cleanly, then use them to shape a better layout.</p>
+        <a class="button ghost" href="site-access.html#survey">Start a survey note</a>
       </div>
-      <a class="button primary" href="docs/plain-english-one-pager.md">Open one-pager</a>
     </section>
-  </main>
 
-  <footer class="footer">
-    <div class="wrap footer-grid">
-      <div><strong>Amity Point Outdoor Fitness & Wellbeing Circuit</strong><p>Draft grant package. Verify costs, dates, eligibility and approvals before applying.</p></div>
-      <div class="footer-links"><a href="docs/source-notes.md">Sources</a><a href="docs/site-checklist.md">Site checklist</a><a href="docs/grant-options.md">Grant options</a></div>
-    </div>
+    <section class="section band community-call">
+      <div class="section-heading">
+        <p class="kicker">Community invitation</p>
+        <h2>Help price, test and improve the idea before money moves.</h2>
+        <p>Residents can add site notes. Suppliers and tradies can provide comparable quotes. Volunteers can offer safe working bee tasks. The honour board can show support publicly without pretending every job is suitable for volunteers.</p>
+      </div>
+    </section>
+</main>
+  <nav class="page-flow" aria-label="Page flow">
+    <a class="flow-link next" href="site-access.html"><span>Next</span>Site and access</a>
+  </nav>
+
+
+  <footer class="site-footer">
+    <p>Draft local grant website. Confirm costs, permissions, traffic treatment, services and landowner approval before submission.</p>
   </footer>
 
-  <script src="assets/app.js"></script>
+  <script src="assets/site.js?v=20260510-1552"></script>
 </body>
 </html>
+
+
+
