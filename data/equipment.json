@@ -1,0 +1,57 @@
+[
+  {
+    "category": "Strength",
+    "items": [
+      "Pull-up and chin-up bars",
+      "Parallel bars and dip rails",
+      "Step-up and plyometric blocks",
+      "Incline sit-up bench and push-up rails",
+      "Swedish ladder / rib wall"
+    ]
+  },
+  {
+    "category": "Mobility",
+    "items": [
+      "Stretch posts",
+      "Shoulder wheel",
+      "Balance rails",
+      "Low-impact cycle or hand cycle",
+      "Assisted squat-to-stand station"
+    ]
+  },
+  {
+    "category": "Mind-body",
+    "items": [
+      "Yoga / Tai chi hardstand",
+      "Meditation seating circle",
+      "Mindful path or small labyrinth",
+      "Breathwork and stretch signage",
+      "Nature-sensory walk prompts"
+    ]
+  },
+  {
+    "category": "Access and amenities",
+    "items": [
+      "Accessible loop path",
+      "Shade",
+      "Seating",
+      "Water refill point",
+      "Bins",
+      "Bike racks",
+      "Clear signage",
+      "Maintenance contact"
+    ]
+  },
+  {
+    "category": "Coastal specification",
+    "items": [
+      "316 stainless fasteners",
+      "Hot-dip galvanised or marine-grade stainless / aluminium construction",
+      "High-UV powder coating",
+      "UV-stabilised plastics",
+      "Minimal moving parts",
+      "Supplier corrosion warranty",
+      "Spare parts and maintenance schedule"
+    ]
+  }
+]

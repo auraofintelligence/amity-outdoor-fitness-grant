@@ -1,0 +1,37 @@
+[
+  {
+    "metric": "Queensland adults sufficiently active",
+    "value": "55.5%",
+    "source": "Queensland Chief Health Officer, 2024"
+  },
+  {
+    "metric": "Queensland adults inactive",
+    "value": "13.4%",
+    "source": "Queensland Chief Health Officer, 2024"
+  },
+  {
+    "metric": "Australian adults 18–64 missing both cardio and strength targets",
+    "value": "78%",
+    "source": "AIHW"
+  },
+  {
+    "metric": "Australian adults 18–64 missing muscle-strengthening target",
+    "value": "73%",
+    "source": "AIHW"
+  },
+  {
+    "metric": "Australian adults 65+ missing both cardio and strength targets",
+    "value": "89%",
+    "source": "AIHW"
+  },
+  {
+    "metric": "Australians aged 15+ experiencing loneliness",
+    "value": "15%",
+    "source": "AIHW"
+  },
+  {
+    "metric": "Australian adults doing no vigorous activity",
+    "value": "25%",
+    "source": "ABS 2023"
+  }
+]
